@@ -1,0 +1,96 @@
+
+<html>	
+	 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
+	<head>
+	    <meta charset="UTF-8">
+		<h1>Consume API</h1>
+	    <title>Consume API</title>
+	    <style>
+	        body {
+	            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	            background: linear-gradient(to right, #ff0000, #ffffff);
+	            color: #fff;
+	            text-align: center;
+	            padding: 40px;
+	            margin: 0;
+	        }
+	 
+	        h1 {
+	            color: #fff;
+	            text-shadow: 2px 2px #000;
+	        }
+	 
+	        button {
+	            background-color: #000;
+	            color: #fff;
+	            border: none;
+	            padding: 12px 24px;
+	            font-size: 16px;
+	            border-radius: 5px;
+	            cursor: pointer;
+	            margin-bottom: 20px;
+	            transition: background-color 0.3s ease;
+	        }
+	 
+	        button:hover {
+	            background-color: #333;
+	        }
+	 
+	        ul {
+	            list-style-type: none;
+	            padding: 0;
+	            max-width: 600px;
+	            margin: 0 auto;
+	        }
+	 
+	        li {
+	            background-color: rgba(255, 255, 255, 0.1);
+	            margin: 10px 0;
+	            padding: 15px;
+	            border-radius: 8px;
+	            font-size: 18px;
+	            color: #fff;
+	            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	        }
+			li:hover {
+				            background-color: #333;
+				        }
+	    </style>
+	</head>
+	<script>
+		$(document).ready(function() {
+					
+			$('#getMsg').click(function(){ 	
+				
+				//msg.innerHTML = ''; 
+				$.ajax({
+					url: 'https://azurewebapp1-b6f4dbd2fmencmcw.centralus-01.azurewebsites.net/msg',
+					method: 'GET',
+					success: function(response) {
+						alert(response);
+						displayList(response);
+						
+						console.log(response);
+					},
+				error: function(xhr, status, error) {
+					console.error(status, error);
+				}
+			});
+			});
+			
+			function displayList(data) {
+			
+			        var listHtml = '';
+			        $.each(data, function(index, item) {
+			            listHtml += '<li>' + item.description + '</li>'; // Adjust 'item' based on your data structure
+			        });
+			        $("#getMsgData").empty().append(listHtml);
+			 }
+		});
+	</script>
+	<body>
+		<button value="getMsg" id="getMsg"> getRestMsg </button>
+		<div id='getMsgData'><ul></ul></div>
+	</body>
+</html>

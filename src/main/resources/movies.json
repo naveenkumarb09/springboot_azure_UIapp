@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Iron Man",
+        "releaseDate": "2008-05-02"
+    },
+    {
+        "title": "The Incredible Hulk",
+        "releaseDate": "2008-06-13"
+    },
+    {
+        "title": "Iron Man 2",
+        "releaseDate": "2010-05-07"
+    },
+    {
+        "title": "Thor",
+        "releaseDate": "2011-05-06"
+    },
+    {
+        "title": "Captain America: The First Avenger",
+        "releaseDate": "2011-07-22"
+    },
+    {
+        "title": "The Avengers",
+        "releaseDate": "2012-05-04"
+    },
+    {
+        "title": "Iron Man 3",
+        "releaseDate": "2013-05-03"
+    },
+    {
+        "title": "Thor: The Dark World",
+        "releaseDate": "2013-11-08"
+    },
+    {
+        "title": "Captain America: The Winter Soldier",
+        "releaseDate": "2014-04-04"
+    },
+    {
+        "title": "Guardians of the Galaxy",
+        "releaseDate": "2014-08-01"
+    },
+    {
+        "title": "Avengers: Age of Ultron",
+        "releaseDate": "2015-05-01"
+    },
+    {
+        "title": "Ant-Man",
+        "releaseDate": "2015-07-17"
+    },
+    {
+        "title": "Captain America: Civil War",
+        "releaseDate": "2016-05-06"
+    },
+    {
+        "title": "Doctor Strange",
+        "releaseDate": "2016-11-04"
+    },
+    {
+        "title": "Guardians of the Galaxy Vol. 2",
+        "releaseDate": "2017-05-05"
+    },
+    {
+        "title": "Spider-Man: Homecoming",
+        "releaseDate": "2017-07-07"
+    },
+    {
+        "title": "Thor: Ragnarok",
+        "releaseDate": "2017-11-03"
+    },
+    {
+        "title": "Black Panther",
+        "releaseDate": "2018-02-16"
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "releaseDate": "2018-04-27"
+    },
+    {
+        "title": "Ant-Man and the Wasp",
+        "releaseDate": "2018-07-06"
+    },
+    {
+        "title": "Captain Marvel",
+        "releaseDate": "2019-03-08"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "releaseDate": "2019-04-26"
+    },
+    {
+        "title": "Spider-Man: Far From Home",
+        "releaseDate": "2019-07-02"
+    },
+    {
+        "title": "Black Widow",
+        "releaseDate": "2021-07-09"
+    },
+    {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "releaseDate": "2021-09-03"
+    },
+    {
+        "title": "Eternals",
+        "releaseDate": "2021-11-05"
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "releaseDate": "2021-12-17"
+    },
+    {
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "releaseDate": "2022-05-06"
+    },
+    {
+        "title": "Thor: Love and Thunder",
+        "releaseDate": "2022-07-08"
+    },
+    {
+        "title": "Black Panther: Wakanda Forever",
+        "releaseDate": "2022-11-11"
+    },
+    {
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "releaseDate": "2023-02-17"
+    },
+    {
+        "title": "Guardians of the Galaxy Vol. 3",
+        "releaseDate": "2023-05-05"
+    },
+    {
+        "title": "The Marvels",
+        "releaseDate": "2023-11-11"
+    },
+    {
+        "title": "Deadpool & Wolverine",
+        "releaseDate": "2024-07-26"
+    },
+    {
+        "title": "Captain America: Brave New World",
+        "releaseDate": "2025-02-14"
+    },
+    {
+        "title": "Thunderbolts",
+        "releaseDate": "2025-05-02"
+    }
+]

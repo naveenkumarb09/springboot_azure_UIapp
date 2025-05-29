@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	
 	
-	@GetMapping("/home")
+	/*@GetMapping("/home")
 	public String viewHomePage(ModelMap map) {
 		return "home";
 
-	}
+	}*/
 
 	@GetMapping("/testmsg")
 	public String getTempMsgData() {

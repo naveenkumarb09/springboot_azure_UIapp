@@ -65,14 +65,8 @@
 			$('#getMsg').click(function(){ 	
 				alert("test");
 				//msg.innerHTML = ''; 
-						const headers = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
-  "Access-Control-Allow-Methods": "OPTIONS,POST"
-};
 				$.ajax({
 					//url: 'http://localhost:9090/msg',
-					headers:headers,
 					url: 'https://azurewebapp2-bqexgqcwckhrbzc0.centralus-01.azurewebsites.net/msg',
 					method: 'GET',
 					success: function(response) {

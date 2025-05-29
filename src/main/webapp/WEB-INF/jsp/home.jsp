@@ -1,6 +1,5 @@
-
-<html>	
-	 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 	
 	<head>
 	    <meta charset="UTF-8">
@@ -58,37 +57,7 @@
 				        }
 	    </style>
 	</head>
-	<script>
-		$(document).ready(function() {
-					
-			$('#getMsg').click(function(){ 	
-				
-				//msg.innerHTML = ''; 
-				$.ajax({
-					url: 'https://azurewebapp1-b6f4dbd2fmencmcw.centralus-01.azurewebsites.net/msg',
-					method: 'GET',
-					success: function(response) {
-						alert(response);
-						displayList(response);
-						
-						console.log(response);
-					},
-				error: function(xhr, status, error) {
-					console.error(status, error);
-				}
-			});
-			});
-			
-			function displayList(data) {
-			
-			        var listHtml = '';
-			        $.each(data, function(index, item) {
-			            listHtml += '<li>' + item.description + '</li>'; // Adjust 'item' based on your data structure
-			        });
-			        $("#getMsgData").empty().append(listHtml);
-			 }
-		});
-	</script>
+
 	<body>
 		<button value="getMsg" id="getMsg"> getRestMsg </button>
 		<div id='getMsgData'><ul></ul></div>

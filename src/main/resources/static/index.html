@@ -61,13 +61,12 @@
 	<script>
 		$(document).ready(function() {
 			$('#getMsg').click(function(){ 	
-				alert("test");
+				alert("Please click ok, and wait...");
 				$.ajax({
 					//url: 'http://localhost:9090/msg',
 					url: 'https://azurewebapp2-bqexgqcwckhrbzc0.italynorth-01.azurewebsites.net/msg',
 					method: 'GET',
 					success: function(response) {
-						alert(response);
 						displayList(response);
 						console.log(response);
 					},
